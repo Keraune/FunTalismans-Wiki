@@ -1,6 +1,13 @@
+---
+title: FunTalismans Wiki
+nav_order: 1
+---
+
 # FunTalismans Wiki
 
-Choose your language / Elige tu idioma:
+Elige tu idioma:
 
-- 🇪🇸 **Español** → [Entrar](es/index.md)
-- 🇺🇸 **English** → [Enter](en/index.md)
+- **Español** → [Entrar](./es/)
+- **English** → [Enter](./en/)
+
+> Tip: si quieres un dominio propio, puedes configurar un CNAME en Settings → Pages.

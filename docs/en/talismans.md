@@ -1,20 +1,30 @@
-# Creating a talisman
+---
+title: Create a Talisman
+nav_order: 7
+---
 
-1) Create a `.conf` file inside the talismans folder.
-2) Define the talisman section.
+# Create a Talisman
 
+Create `.conf` files inside `plugins/FunTalismans/talismans/`.
+
+Minimal:
 ```hocon
-vampire {
-  id = "vampire"
-  name = "&cVampire Talisman"
-  material = "NETHER_STAR"
-  rarityId = "epic"
-  glow = true
-  unbreakable = true
-  lore = [
-    "&7Steals life on hit."
-  ]
+talisman {
+  id: "example"
+  name: "&aExample"
+  material: "DIAMOND"
+  rarity: "common"
 }
 ```
 
-3) Reload the plugin (see “Reload”).
+## Main properties (from the parser)
+- Identity: `id`, `name`, `rarity`, `custom_model_data`
+- Base item: `material`, `glow`, `unbreakable`, `disableEnchantGlow`, `keepItemOnDeath`
+- Lore: `lore`
+- Extra: `texture`, `color`
+- Combat: `damage`, `attributes`, `flags`, `enchantments`, `effects`
+- NBT: `nbt`
+- Durability: `maxDurability`, `durability`, `isDurabilityBasedOnUsage`
+- Special configs: `armorTrim`, `dropSettings`, `fireworkData`, `instrumentData`, `bookData`
+- Stack: `maxStack`, `useMaxStack`
+- Modules: `consumable`, `throwable`, `rules`

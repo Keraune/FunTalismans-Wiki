@@ -1,0 +1,20 @@
+title: FunTalismans Wiki
+description: Documentación oficial de FunTalismans
+theme: just-the-docs
+color_scheme: dark
+
+url: ""
+baseurl: ""
+
+aux_links:
+  "Modrinth":
+    - "https://modrinth.com/"
+  "Discord":
+    - "https://discord.com/"
+
+# Just the Docs
+search_enabled: true
+heading_anchors: true
+
+# Si quieres que el logo sea tuyo, sube una imagen a /assets y descomenta:
+# logo: "/assets/logo.png"

@@ -1,9 +1,18 @@
-# FunTalismans Documentation (Wiki)
+# FunTalismans Wiki (GitHub Pages)
 
-Choose your language / Elige tu idioma:
+Este repo está listo para publicarse con **GitHub Pages** usando el tema **Just the Docs**.
 
-- 🇪🇸 Español: [Abrir documentación](docs/es/index.md)
-- 🇺🇸 English: [Open documentation](docs/en/index.md)
+## Publicar en GitHub Pages
+1. En GitHub: **Settings → Pages**
+2. Source: **Deploy from a branch**
+3. Branch: **main** (o master) y carpeta: **/** (root)
+4. Guarda. En 1–2 minutos tu wiki estará online.
 
-## GitHub Pages
-Enable GitHub Pages with source: **Deploy from a branch** → branch **main** → folder **/docs**.
+## Editar contenido
+- Español: `es/`
+- English: `en/`
+- El index principal está en `index.md` (selector de idioma).
+
+## Notas
+- Todo está en Markdown.
+- El menú lateral se genera con `nav_order` en el front-matter.

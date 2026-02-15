@@ -1,6 +1,14 @@
-# Reload
+---
+title: Live reload
+nav_order: 11
+---
 
-FunTalismans supports reload to apply changes without restarting.
+# Live reload
 
-- Recommendation: reload after big changes and check console.
-- We'll add: exact commands and permissions.
+FunTalismans can reload config, rarities and talismans without restarting (depending on your command/setup).
+
+Typical workflow:
+1. Edit `.conf`
+2. Run the reload command
+3. Test
+

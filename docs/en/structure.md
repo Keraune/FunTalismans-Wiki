@@ -1,14 +1,17 @@
+---
+title: Folder structure
+nav_order: 4
+---
+
 # Folder structure
 
-You can create **unlimited nested folders** inside the talismans folder to stay organized.
-
-Example:
+Typical:
 ```
 plugins/FunTalismans/
-  talismans/
-    combat/
-      vampire.conf
-    events/
-      halloween/
-        candy.conf
+  config.conf
+  rarities/rarities.conf
+  talismans/ (your .conf files)
 ```
+
+## Nested folders
+`talismans/` is scanned **recursively**, so you can create unlimited subfolders.

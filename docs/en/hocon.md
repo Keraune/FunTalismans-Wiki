@@ -1,21 +1,33 @@
-# HOCON (.conf) format
+---
+title: HOCON format
+nav_order: 3
+---
 
-HOCON is a flexible format (Typesafe Config).
+# HOCON (Typesafe Config)
 
-## Quick tips
-- Use `=` (you can also use `:`).
-- Lists without commas.
-- Comments with `#` or `//`.
+FunTalismans uses **HOCON** (Typesafe Config).
 
+## Quick examples
+
+Object:
 ```hocon
-vampire {
-  id = "vampire"
-  name = "&cVampire Talisman"
-  material = "NETHER_STAR"
-  glow = true
-  lore = [
-    "&7Line 1"
-    "&7Line 2"
-  ]
+talisman {
+  name: "Example"
+  material: DIAMOND
+  glow: true
 }
+```
+
+List:
+```hocon
+lore: [
+  "&7Line 1"
+  "&bLine 2"
+]
+```
+
+Reuse:
+```hocon
+base = { glow: true unbreakable: true }
+a = ${base} { name: "A" material: STICK }
 ```

@@ -1,12 +1,21 @@
-# FunTalismans Wiki (ES)
+---
+title: Inicio
+nav_order: 1
+---
+
+# FunTalismans
+
+Bienvenido a la documentación de **FunTalismans**.
 
 ## Contenido
-- [¿Qué es FunTalismans?](instalacion.md#qué-es-funtalismans)
-- [Instalación](instalacion.md#instalación)
-- [Formato HOCON (.conf)](hocon.md)
-- [Estructura de carpetas](estructura.md)
-- [Crear un talismán](talismanes.md)
-- [Propiedades del talismán](propiedades.md)
-- [Recarga en tiempo real (reload)](recarga.md)
-- [Ejemplos](ejemplos.md)
-- [FAQ](faq.md)
+- [Instalación](./install/)
+- [Conceptos: HOCON](./hocon/)
+- [Estructura de carpetas](./structure/)
+- [Crear un Talismán](./talismans/)
+- [Rarezas](./rarities/)
+- [Reglas (rules)](./rules/)
+- [Consumibles](./consumables/)
+- [Arrojables (throwables)](./throwables/)
+- [Comandos y permisos](./commands/)
+- [Recarga en tiempo real](./reload/)
+- [Solución de problemas](./troubleshooting/)
